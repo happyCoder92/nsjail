@@ -157,6 +157,7 @@ struct nsjconf_t {
 	std::vector<int> openfds;
 	std::vector<int> caps;
 	std::vector<std::string> ifaces;
+	std::vector<std::pair<int, int>> pipes;
 };
 
 #endif /* _NSJAIL_H */
